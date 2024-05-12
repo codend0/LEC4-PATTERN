@@ -19,11 +19,11 @@ int main(){
             cout<<" ";
             space=space-1;
         }
-        int j=n-i+1;//just like star pattern we re define the column 
+        int j=1;//just like star pattern we re define the column 
          
-      while(j){     // just like star we only run it for column 
-          cout<<n-j+1; //after running i found taht it is running for opposite so we just + - n and 1 and wallah!! it is done 
-          j=j-1;   //  and column should be decreaing line by line 
+      while(j<n-i+1){     // just like star we only run it for column 
+          cout<<i+j-1; //after running i found taht it is running for opposite so we just + - n and 1 and wallah!! it is done 
+          j=j+1;   //  and column should be decreaing line by line 
       }
       cout<<endl;
       i=i+1;
