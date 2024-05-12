@@ -18,10 +18,10 @@ int main(){
             space=space-1;
         }
         //LOOP FOR STARS
-        int star=n-i+1;
-      while(star){
+        int star=1;
+      while(star<=n-i+1){
           cout<<"*";
-          star=star-1;
+          star=star+1;
       }
       cout<<endl;
       i=i+1;
