@@ -1,2 +1,3 @@
 # Learning-C-Language-
-Currently I am learning C++ from love babbar and new in line of coding  and learning new things in C++ and DSA ...
+Currently I am learning C++ from love babbar and new in line of coding.
+Documenting daily progress  in C++ course..
