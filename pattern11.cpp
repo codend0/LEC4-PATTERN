@@ -18,11 +18,10 @@ int main(){
             space=space-1;// condition of sapce in decreasing order 
         }
      //loop for column
-        int j=n-i+1; // column are decreaing in this pattern so we have to redefine the column 
-     // always check the defination of row nad column if pyramind shape is change for like this case and try to think of similar pattern of star or alphabet maybe
-      while(j){      // justlike we do in star case taking inspiration fro sam e star pattern running loop only for column
+        int j=1; 
+      while(j<=n-i+1){      // justlike we do in star case taking inspiration fro sam e star pattern running loop only for column
           cout<<i;   // the row no. in the number shwoing in every row so we have to print row no.
-          j=j-1;     // and column should be decrease by 1 
+          j=j+1;     // and column should be increase by 1 
       }
       cout<<endl;
       i=i+1;
