@@ -1,9 +1,9 @@
-/n OBJECTIVE OF THIS CODE IS TO MAKE A PATTERN 
+/* OBJECTIVE OF THIS CODE IS TO MAKE A PATTERN 
 1
 23
 345
 4567
-56789 n/
+56789 */
 //CODE:
 #include <iostream>
 using namespace std;
